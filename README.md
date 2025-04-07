@@ -1,23 +1,16 @@
-# Internship_DataAnalyst
+Internship_DataAnalyst
 
-Sure! Here's a `README.md` file for your data cleaning project based on the code you've written:
-
----
-
-```markdown
 # 🧹 Sales Data Cleaning Script
 
 This project focuses on cleaning a sample sales dataset using Python and the pandas library. The script performs a series of preprocessing tasks such as renaming columns, handling missing data, removing duplicates, and formatting values.
 
 ## 📂 File Structure
 
-```
-DataCleanTask1/
-├── sales_data_sample.csv        # Original raw data file
-├── cleaned_sales_data.csv       # Output file after cleaning
-├── cleand.py                    # Python script for cleaning the data
-└── README.md                    # This file
-```
+DataCleanTask1/ ├── sales_data_sample.csv # Original raw data file ├── cleaned_sales_data.csv # Output file after cleaning ├── cleand.py # Python script for cleaning the data └── README.md # This file
+
+markdown
+Copy
+Edit
 
 ## ⚙️ How It Works
 
@@ -49,31 +42,30 @@ You can install `pandas` via pip if you don't have it:
 
 ```bash
 pip install pandas
-```
-
-### Run the Script
-
-```bash
+Run the Script
+bash
+Copy
+Edit
 python cleand.py
-```
+Make sure sales_data_sample.csv is in the same folder as the script, or update the path accordingly in the script.
 
-Make sure `sales_data_sample.csv` is in the same folder as the script, or update the path accordingly in the script.
+📈 Output
+A cleaned version of the dataset: cleaned_sales_data.csv
 
-## 📈 Output
+Console output showing:
 
-- A cleaned version of the dataset: `cleaned_sales_data.csv`
-- Console output showing:
-  - Original column names and shape
-  - Cleaned column names
-  - Missing value summary
+Original column names and shape
 
-## 🛠️ Future Improvements
+Cleaned column names
 
-- Include more advanced outlier detection
-- Add data type validation
-- Visualizations for basic exploratory data analysis (EDA)
+Missing value summary
 
-## 📄 License
+🛠️ Future Improvements
+Include more advanced outlier detection
 
+Add data type validation
+
+Visualizations for basic exploratory data analysis (EDA)
+
+📄 License
 This project is for educational and internal use only.
-```
